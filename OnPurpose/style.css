@@ -1,0 +1,272 @@
+
+
+
+
+body {
+	font-size: 16px;
+	/*background-color: #101820;*/
+	background-color: white;
+	text-align:center;
+}
+
+p {
+	color: #D3BC8D;
+}
+
+/*all pages*/
+.header {
+	margin: 20px;
+	padding: 40px;
+	text-align: center;
+	background-color: black;
+}
+
+.social-media-banner {
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+#social-media-menu {
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+.nav {
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+
+.menu-bar {
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+	#facebook {
+
+	}
+
+	#twitter {
+
+	}
+
+	#instagram {
+
+	}
+
+#top-menu {
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+	#home {
+
+	}
+
+	#about {
+
+	}
+
+	#equipment {
+
+	}
+
+	#bookings {
+
+	}
+
+	#news {
+
+	}
+
+	#gallery {
+
+	}
+
+	#contact {
+
+	}
+
+.sound-wave-image {
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+.page-container {
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+.caption{
+	margin: 1em;
+	padding: 2em;
+	background-color:black;
+}
+
+
+/*index specific*/
+#quoteOTD {
+
+}
+
+#left-side {
+
+}
+
+
+/*about specific*/
+#about-mission {
+
+}
+
+#about-owners {
+
+}
+
+#about-staff {
+
+}
+
+#about-site {
+
+}
+
+
+/*equipment specific*/
+#equipment-description {
+
+}
+
+#left-image {
+
+}
+
+#right-image {
+
+}
+
+
+/*bookings specific*/
+#booking-info {
+
+}
+
+#booking-calendar {
+
+}
+
+#booking-form {
+
+}
+	
+
+/*news specific*/
+#podcasts {
+
+}
+
+#podcast-links {
+
+}
+
+#most-recent-pi {
+
+}
+
+#most-recent-bg {
+
+}
+
+#most-recent-other {
+
+}
+
+#live-show-dates {
+
+}
+
+#show-info {
+
+}
+
+#this-month {
+
+}
+
+#next-month {
+
+}
+
+#future-months {
+
+}
+
+#music-samples {
+
+}
+
+#sound-cloud-embedded {
+
+}
+
+
+/*gallery specific*/
+.image-grid {
+
+}
+
+#images {
+
+}
+
+#top-left {
+
+}
+
+#top-middle {
+
+}
+
+#top-right {
+
+}
+
+#middle-left {
+
+}
+
+#middle-middle {
+
+}
+
+#middle-right {
+
+}
+
+#bottom_left {
+
+}
+
+#bottom_middle {
+
+}
+
+#bottom_right {
+
+}
+
+/*contact specific*/
+#contact {
+
+}
+
+#contact-form {
+
+}

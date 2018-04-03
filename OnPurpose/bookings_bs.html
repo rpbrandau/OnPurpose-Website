@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<title> OnPurpose Recording Studio - About </title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Old CSS 
+		<link rel="stylesheet" href="style.css"> 
+	-->
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:grey">
+	<!-- SAME FOR ALL PAGES -->
+	<div id="header" class="container-fluid">
+		<div class="container-fluid">
+				<div class="col-sm-12"> <h1 class="text-center"> *ON PURPOSE RECORDING STUDIO LOGO* </h1> </div> <!--this should be a resizable logo-->
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div id="social-media-menu" class="row">
+			<!-- Need to get OnPurpose Facebook info-->
+			<div id="facebook" class="col-sm-4"> <a href="FACEBOOK_LINK"> <img src="images/facebook.png" class="center-block" height="50" width="50" alt="Facebook"></a></div>
+			<!-- Need to get OnPurpose Twitter info-->
+			<div id="twitter" class="col-sm-4"> <a href="TWITTER_LINK"> <img src="images/twitter.png" class="center-block" height="50" width="100"> </div>
+			<!-- Need to get OnPurpose Instagram info-->
+			<div id="instagram" class="col-sm-4"> <a href="INSTAGRAM_LINK"> <img src="images/instagram.png" class="center-block" height="50" width="50" alt="Instagram"></a></div>
+	</div>
+
+	<div class="container-fluid"> 
+		<div id="top-menu" class="row" style="background-color:black">
+			<div id="home" class="col-sm-1"> <a href="index_bs.html"> <p class="text-center"> HOME </p> </a></div>
+			<div id="about" class="col-sm-2"> <a href="about_bs.html"> <p class="text-center">  ABOUT </p></a></div>
+			<div id="equipment" class="col-sm-2"> <a href="equipment_bs.html"><p class="text-center">  EQUIPMENT </p></a></div>
+			<div id="bookings" class="col-sm-2"> <a href="bookings_bs.html"><p class="text-center">  BOOKINGS </p></a></div>
+			<div id="news" class="col-sm-2"> <a href="news_bs.html"> <p class="text-center"> NEWS </p></a></div>
+			<div id="gallery" class="col-sm-2"> <a href="gallery_bs.html"> <p class="text-center"> GALLERY </p></a></div>
+			<div id="contact" class="col-sm-1"> <a href="contact_bs.html"> <p class="text-center"> CONTACT </p></a></div>
+		</div>	
+	</div>
+
+	<div id="sound-wave-image" class="container-fluid">
+		<div class="row">
+				<div class="col-sm-12"> 
+					<img class="img-responsive center-block" src="images/soundwave-rainbow.png" alt="Soundwave" style="height:150px; width:600px">
+				</div>
+		</div>
+	</div>
+
+		<div class="container-fluid">
+			
+	<!-- UNIQUE PER PAGE -->
+			<div id="booking-info" class="row">
+				<div class="col-sm-12">
+					<p class="text-center"> *BOOKING DETAILS* </p>
+					<p class="text-center">  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+				</div>
+			</div>
+
+			<div id="booking-calendar" class="row">
+				<div class="col-sm-12">
+					<p class="text-center"> *BOOKING CALENDAR DESCRIPTION* </p>
+					<img class="img-responsive center-block" src="images/calendar.jpg">
+				</div>
+			</div>
+
+			<div id="booking-form" class="row">
+				<div class="col-sm-12">
+					<p class="text-center"> *BOOKING FORM DETAILS* </p>
+					<p class="text-center">  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					
+					<form action="/action_page.php"> <!-- Need to UPDATE -->
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" id="name" required="required">
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" id="email" required="required">
+					</div>
+					<div class="form-group">
+						<label for="telephone">Phone Number:</label>
+						<input type="text" class="form-control input-medium bfh-phone" id="phone" required="required" data-country="US"> <!-- need to include bootstrap-formhelpers-phone.format.js and bootstrap-formhelpers-phone.js -->
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="date">Date:</label>
+						<div class="input-group date" id="datePicker_1">
+							<input type="text" class="form-control"/>
+							<span class="input-group-addon">
+								<span class="glyphicon glyphicon-calendar"></span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="time_1">From:</label>
+						<div class="input-group date" id="timePicker_1">
+							<input type="text" class="form-control"/>
+							<span class="input-group-addon">
+								<span class="glyphicon glyphicon-time"></span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="time_2">To:</label>
+						<div class="input-group date" id="timePicker_2">
+							<input type="text" class="form-control"/>
+							<span class="input-group-addon">
+								<span class="glyphicon glyphicon-time"></span>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12">
+
+					<div class="form-group">
+						<label for="creditcardinfo">Credit Card#:</label>
+						<input type="text" class="form-control" id="creditcardinfo" required="required">
+					</div>
+					<div class="form-group">
+						<div class="g-recaptcha" data-sitekey="INSERT_SITE_KEY" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"> CAPTCHA WILL GO HERE
+						</div>
+						<input class="form-control d-none" data-recaptcha="true" required data-error="Humans only, Please!">
+						<div class="help-block with-errors"></div>
+					<div class="col-sm-12">
+						<input type="submit" class="btn btn-success btn-send" value="Submit">
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+</body>
+</html>
